@@ -1,1 +1,25 @@
 /* You can add global styles to this file, and also import other style files */
+
+body.dark-mode {
+  background-color: #333;
+  color: #fff;
+}
+
+.dark-mode .navbar {
+  background-color: #444 !important;
+  color: #fff !important;
+}
+
+.dark-mode .navbar-brand {
+  color: #fff !important;
+}
+
+.dark-mode .btn-primary {
+  background-color: #555 !important;
+  border-color: #555 !important;
+}
+
+.dark-mode .btn-outline-primary {
+  color: #fff !important;
+  border-color: #fff !important;
+}

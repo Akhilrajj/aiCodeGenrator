@@ -1,0 +1,9 @@
+<div class="card">
+  <div class="card-header d-flex justify-content-end">
+    <button class="btn btn-sm btn-secondary me-2" (click)="copyToClipboard()">Copy</button>
+    <button class="btn btn-sm btn-primary" (click)="saveSnippet()">Save</button>
+  </div>
+  <div class="card-body">
+    <pre><code class="language-typescript">{{ snippet }}</code></pre>
+  </div>
+</div>

@@ -1,0 +1,10 @@
+<div class="history-panel">
+  <div class="input-group mb-3">
+    <input type="text" class="form-control" placeholder="Search snippets..." [(ngModel)]="searchTerm" (ngModelChange)="filterSnippets()">
+  </div>
+  <ul class="list-group">
+    <li *ngFor="let snippet of filteredSnippets" class="list-group-item" (click)="selectSnippet(snippet)">
+      {{ snippet | slice:0:100 }}...
+    </li>
+  </ul>
+</div>
